@@ -23,13 +23,43 @@ Construído do zero por mim: front-end, API, banco de dados, infraestrutura e se
 
 ## Outros produtos da Valtrea
 
-Abertos para testes, cada um com API, site e app Android:
+Abertos para testes, cada um com API em Java e Spring Boot, site em React e app Android em Kotlin.
 
-| Produto | O que faz | |
-|---|---|---|
-| **[Valtrea Volta](https://volta.valtrea.com.br)** | Etiquetas com QR Code para objetos: quem encontra avisa o dono sem ver o telefone nem o endereço dele | [código](https://github.com/adolfo-araujo/valtrea-volta) |
-| **[Valtrea Pulso](https://pulso.valtrea.com.br)** | Moradores registram o que o bairro precisa, reúnem apoio dos vizinhos e acompanham cada iniciativa, com moderação por denúncias | [código](https://github.com/adolfo-araujo/valtrea-pulso) |
-| **[Valtrea Agora](https://agora.valtrea.com.br)** | Horários vagos de salões e barbearias da região para reservar no mesmo dia, com análise de cada estabelecimento | [código](https://github.com/adolfo-araujo/valtrea-agora) |
+### [Valtrea Volta](https://volta.valtrea.com.br): se perdeu, pode voltar
+
+Etiquetas com QR Code para mochilas, chaves, carteiras e outros objetos. Quem encontra lê o código com a câmera do
+celular e avisa o dono pela página da etiqueta, sem ver o nome, o telefone ou o endereço dele.
+
+- Cadastro de objetos e etiquetas com código aleatório de 256 bits, guardado só como hash e cifrado (AES-256-GCM)
+- Modo "perdi este objeto", que mostra um destaque para quem ler o QR Code
+- Avisos de quem encontrou com aceite, proteção contra robôs e limite por pessoa e por objeto
+- QR Code para imprimir no site e para salvar como imagem no app
+
+**[Ver o código →](https://github.com/adolfo-araujo/valtrea-volta)**
+
+### [Valtrea Pulso](https://pulso.valtrea.com.br): a voz organizada do seu bairro
+
+Moradores registram o que o bairro precisa (iluminação, limpeza, trânsito, praças), reúnem o apoio dos vizinhos e
+acompanham o que acontece com cada iniciativa até ser resolvida.
+
+- Bairros criados pelos próprios moradores, sem duplicados (nomes iguais com ou sem acento viram o mesmo bairro)
+- Um apoio por pessoa e lista ordenada pelas iniciativas mais apoiadas
+- Linha do tempo com as novidades e as fases: aberta, em andamento, resolvida
+- Moderação: com três denúncias a iniciativa some até a revisão no painel; em público aparece só o primeiro nome
+
+**[Ver o código →](https://github.com/adolfo-araujo/valtrea-pulso)**
+
+### [Valtrea Agora](https://agora.valtrea.com.br): oportunidades que acontecem perto de você
+
+Horários vagos de salões, barbearias e outros serviços da região, para reservar no mesmo dia. O estabelecimento
+publica os horários que ficaram livres e o cliente reserva com um toque, sem pagar nada pelo app.
+
+- Todo estabelecimento passa por análise antes de aparecer, e denúncias o levam de volta para a fila
+- Reserva segura mesmo com cliques ao mesmo tempo: trava da linha no banco e índice único (testado com concorrência)
+- Agenda do estabelecimento com cancelamento pelos dois lados, avisos por e-mail e controle de presença
+- O estabelecimento vê só o primeiro nome do cliente e o telefone, se ele quiser informar
+
+**[Ver o código →](https://github.com/adolfo-araujo/valtrea-agora)**
 
 Em desenvolvimento: **Valtrea Pay**, pagamentos integrados ao Finance.
 
