@@ -4,7 +4,7 @@ Estudante de Engenharia de Software na UVA e fundador da [Valtrea](https://www.v
 Desenvolvo produtos completos (API, site e app Android), do banco de dados ao deploy, com segurança, LGPD e testes
 automatizados. Hoje mantenho quatro produtos próprios no ar.
 
-[![Site](https://img.shields.io/badge/valtrea.com.br-55B02E?style=flat-square&logo=googlechrome&logoColor=white)](https://www.valtrea.com.br)
+[![Site](https://img.shields.io/badge/valtrea.com.br-22C55E?style=flat-square&logo=googlechrome&logoColor=white)](https://www.valtrea.com.br)
 [![E-mail](https://img.shields.io/badge/contato@valtrea.com.br-1C2026?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@valtrea.com.br)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-adolfo/)
 
