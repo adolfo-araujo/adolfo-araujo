@@ -2,7 +2,7 @@
 
 Estudante de Engenharia de Software na UVA e fundador da [Valtrea](https://www.valtrea.com.br), no Rio de Janeiro.
 Desenvolvo produtos completos (API, site e app Android), do banco de dados ao deploy, com segurança, LGPD e testes
-automatizados. Hoje mantenho quatro produtos próprios no ar.
+automatizados. Hoje mantenho quatro produtos próprios e o site da Valtrea no ar.
 
 [![Site](https://img.shields.io/badge/valtrea.com.br-55B02E?style=flat-square&logo=googlechrome&logoColor=white)](https://www.valtrea.com.br)
 [![E-mail](https://img.shields.io/badge/contato@valtrea.com.br-1C2026?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@valtrea.com.br)
@@ -20,6 +20,17 @@ Construído do zero por mim: front-end, API, banco de dados, infraestrutura e se
 - Deploy contínuo, monitoramento de erros, backup diário criptografado e app instalável (PWA)
 
 **[Ver detalhes do projeto →](https://github.com/adolfo-araujo/valtrea-finance)**
+
+## Site da Valtrea
+
+Site institucional em **[valtrea.com.br](https://www.valtrea.com.br)**, em português e inglês, rodando na borda da
+Cloudflare. Feito do zero em um monorepo TypeScript: site em Astro, API e coleta de dados em Cloudflare Workers com Hono.
+
+- Estatísticas próprias sem cookies: a visita é contada com um código diário descartável e o IP não é gravado
+- Painel com login pelo GitHub, visitas por dia, atenção por seção e links rastreados com aviso por e-mail
+- Apoio com café por Pix ou cartão via Cakto: o cartão é protegido no navegador e o pagamento é confirmado por webhook
+- Cinco lojas de demonstração (pousada, achadinhos, corrida, pet shop e cardápio digital) com carrinho e pedido
+- Política de privacidade, termos e declaração de acessibilidade escritos a partir do que o código realmente faz
 
 ## Outros produtos da Valtrea
 
@@ -71,12 +82,15 @@ O que esses projetos têm em comum:
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
 
 **Back-end e dados**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -95,6 +109,7 @@ O que esses projetos têm em comum:
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
 ![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black)
@@ -104,6 +119,7 @@ O que esses projetos têm em comum:
 - Validando o Finance, o Volta, o Pulso e o Agora com os primeiros usuários
 - Preparando os apps Android para a Play Store e terminando o Valtrea Pay
 - Atendendo empresas com sites e sistemas sob medida pela Valtrea
+- Evoluindo o painel de estatísticas do site para outros sites usarem
 
 ## Contato
 
