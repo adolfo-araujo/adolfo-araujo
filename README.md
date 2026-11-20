@@ -15,6 +15,7 @@ Construído do zero por mim: front-end, API, banco de dados, infraestrutura e se
 
 - Saldo por período, gastos por categoria, evolução mês a mês e orçamento mensal
 - Contas fixas lançadas automaticamente, sem duplicidade
+- Valtrea Assistente: chat que lança gastos escritos em linguagem natural, entende o contexto da conversa e aprende com o usuário, sem IA externa (regras, pontuação de confiança e base de conhecimento próprias)
 - Login com JWT e renovação de sessão, confirmação de e-mail, recuperação de senha e bloqueio contra força bruta
 - API REST documentada com Swagger e testada de ponta a ponta a cada push
 - Deploy contínuo, monitoramento de erros, backup diário criptografado e app instalável (PWA)
