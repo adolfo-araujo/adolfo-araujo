@@ -8,7 +8,7 @@ graduação construo projetos em Java, Python, C e PHP.
 
 [![Site](https://img.shields.io/badge/valtrea.com.br-55B02E?style=flat-square&logo=googlechrome&logoColor=white)](https://www.valtrea.com.br)
 [![E-mail](https://img.shields.io/badge/contato@valtrea.com.br-1C2026?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@valtrea.com.br)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-adolfo/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joao-adolfo-araujo/)
 
 ## Em destaque: Valtrea Finance
 
