@@ -13,7 +13,10 @@ graduação construo projetos em Java, Python, C e PHP.
 ## Em destaque: Valtrea Finance
 
 App de finanças pessoais em produção em **[finance.valtrea.com.br](https://finance.valtrea.com.br)**.
-Construído do zero por mim: front-end, API, banco de dados, infraestrutura e segurança.
+Desenvolvido por mim de ponta a ponta: front-end, API, banco de dados, infraestrutura e segurança.
+
+**Stack:** Node.js, Express, Prisma e PostgreSQL na API · React, Vite, Tailwind CSS, TanStack Query e Recharts no
+dashboard · Docker, GitHub Actions, Vercel e Sentry na entrega. Código em repositório privado (`dashboard`).
 
 - Saldo por período, gastos por categoria, evolução mês a mês e orçamento mensal
 - Contas fixas lançadas automaticamente, sem duplicidade
