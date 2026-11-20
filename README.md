@@ -30,8 +30,7 @@ dashboard · Docker, GitHub Actions, Vercel e Sentry na entrega. Código em repo
 ## Site da Valtrea
 
 Site institucional em **[valtrea.com.br](https://www.valtrea.com.br)**, em português e inglês, rodando na borda da
-Cloudflare. Monorepo TypeScript com site em Astro e API e coleta de dados em Cloudflare Workers com Hono, adaptado
-a partir da estrutura do projeto open source [Devlytics](https://github.com/gabrueldev/devlytics) (licença MIT).
+Cloudflare. Monorepo TypeScript com site em Astro e API e coleta de dados em Cloudflare Workers com Hono.
 Código em **[adolfo-araujo/valtrea-site](https://github.com/adolfo-araujo/valtrea-site)**.
 
 - Estatísticas próprias sem cookies: a visita é contada com um código diário descartável e o IP não é gravado
