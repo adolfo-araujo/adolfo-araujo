@@ -1,8 +1,10 @@
 # João Adolfo
 
-Estudante de Engenharia de Software na UVA e fundador da [Valtrea](https://www.valtrea.com.br), no Rio de Janeiro.
-Desenvolvo produtos completos (API, site e app Android), do banco de dados ao deploy, com segurança, LGPD e testes
-automatizados. Hoje mantenho quatro produtos próprios e o site da Valtrea no ar.
+**Desenvolvedor full stack · Estudante de Engenharia de Software (UVA) · Fundador da [Valtrea](https://www.valtrea.com.br)**
+
+Rio de Janeiro, Brasil. Desenvolvo produtos completos (API, site e app Android), do banco de dados ao deploy, com
+segurança, LGPD e testes automatizados. Hoje mantenho quatro produtos próprios e o site da Valtrea no ar, e na
+graduação construo projetos em Java, Python, C e PHP.
 
 [![Site](https://img.shields.io/badge/valtrea.com.br-55B02E?style=flat-square&logo=googlechrome&logoColor=white)](https://www.valtrea.com.br)
 [![E-mail](https://img.shields.io/badge/contato@valtrea.com.br-1C2026?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@valtrea.com.br)
@@ -20,12 +22,14 @@ Construído do zero por mim: front-end, API, banco de dados, infraestrutura e se
 - API REST documentada com Swagger e testada de ponta a ponta a cada push
 - Deploy contínuo, monitoramento de erros, backup diário criptografado e app instalável (PWA)
 
-**[Ver detalhes do projeto →](https://github.com/adolfo-araujo/valtrea-finance)**
+**[Acessar o Valtrea Finance →](https://finance.valtrea.com.br)**
 
 ## Site da Valtrea
 
 Site institucional em **[valtrea.com.br](https://www.valtrea.com.br)**, em português e inglês, rodando na borda da
-Cloudflare. Feito do zero em um monorepo TypeScript: site em Astro, API e coleta de dados em Cloudflare Workers com Hono.
+Cloudflare. Monorepo TypeScript com site em Astro e API e coleta de dados em Cloudflare Workers com Hono, adaptado
+a partir da estrutura do projeto open source [Devlytics](https://github.com/gabrueldev/devlytics) (licença MIT).
+Código em **[adolfo-araujo/valtrea-site](https://github.com/adolfo-araujo/valtrea-site)**.
 
 - Estatísticas próprias sem cookies: a visita é contada com um código diário descartável e o IP não é gravado
 - Painel com login pelo GitHub, visitas por dia, atenção por seção e links rastreados com aviso por e-mail
@@ -76,6 +80,23 @@ O que esses projetos têm em comum:
 - LGPD na prática: exportação dos dados, exclusão da conta na hora, retenção automática e registro das operações
 - Proteção contra abuso: limites por IP, bloqueio de login, confirmação de e-mail e controle de acesso por recurso
 
+## Projetos acadêmicos
+
+Desenvolvidos no curso de Engenharia de Software da Universidade Veiga de Almeida (UVA). Todos têm README com
+instruções de execução, telas e decisões técnicas.
+
+| Projeto | Descrição | Tecnologias |
+|---|---|---|
+| [**Conexão Edu**](https://github.com/adolfo-araujo/conexao-edu-backend) | Plataforma educacional com API REST, autenticação JWT e eventos assíncronos a cada cadastro ou alteração, com painel de monitoramento. *Desenvolvimento Backend, 2026, em equipe.* | Java 17, Spring Boot 3, Spring Security, RabbitMQ, Docker |
+| [**Autenticação LDAP com Docker**](https://github.com/adolfo-araujo/ldap-auth-docker) | API que autentica usuários num diretório OpenLDAP, emite JWT e libera rotas por grupo. Quatro serviços em Docker Compose com redes separadas e healthcheck. *Desenvolvimento Backend, 2026, individual.* | Python, Flask, OpenLDAP, JWT, Nginx, Docker |
+| [**Leiturinha**](https://github.com/adolfo-araujo/Site-Leiturinha) | Sistema web de catálogo de livros com busca, favoritos, formulário de contato e CRUD completo. *Desenvolvimento Web, em equipe.* | PHP (PDO), MySQL, HTML, CSS, JavaScript |
+| [**Paradigmas de Programação**](https://github.com/adolfo-araujo/paradigmas-programacao) | Os mesmos problemas resolvidos em C, Python e Java para comparar os paradigmas estruturado e orientado a objetos, com validação automática no GitHub Actions. | C, Python, Java |
+| [**Loja de Calçados**](https://github.com/adolfo-araujo/loja-de-calcados-c) | Calculadora de compras em linha de comando: catálogo, frete por região e peso, resumo do pedido e previsão de entrega, com testes automatizados. *Bases de Programação, 2025.* | C, Python (testes) |
+
+**Primeiros estudos (2025):** gerador de senhas em três versões, [Python estruturado](https://github.com/adolfo-araujo/Gerador-de-Senha-Paradigma-estruturado-),
+[Python orientado a objetos](https://github.com/adolfo-araujo/Python-Orientado-ao-Objeto) e [Java](https://github.com/adolfo-araujo/Java-),
+e uma [calculadora com interface gráfica](https://github.com/adolfo-araujo/Calculado-Simples) em Python com Tkinter.
+
 ## Tecnologias
 
 **Front-end**
@@ -95,6 +116,11 @@ O que esses projetos têm em comum:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 
 **Mobile**
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
@@ -108,6 +134,7 @@ O que esses projetos têm em comum:
 
 **Infraestrutura**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
@@ -121,6 +148,10 @@ O que esses projetos têm em comum:
 - Preparando os apps Android para a Play Store e terminando o Valtrea Pay
 - Atendendo empresas com sites e sistemas sob medida pela Valtrea
 - Evoluindo o painel de estatísticas do site para outros sites usarem
+
+## Formação
+
+**Engenharia de Software** · Universidade Veiga de Almeida (UVA), Rio de Janeiro · em andamento, desde 2025
 
 ## Contato
 
